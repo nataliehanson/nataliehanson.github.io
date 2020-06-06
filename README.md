@@ -1,3 +1,3 @@
 # nataliehanson.github.io
 
-Home page it index.html
+Home page is index.html
