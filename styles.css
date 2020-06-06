@@ -1,0 +1,158 @@
+
+/*BODY*/
+body {
+    background-color: lightblue;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav.side-nav {
+    position: fixed;
+    padding-left: 3em;
+    margin-top: 0;
+}
+
+.heading {
+    padding-left: 2em;
+    padding-top: 2em;
+    font-family: serif;
+}
+
+h1 {
+    font-weight: 300;
+    color: black;
+}
+
+/*NAVIGATION*/
+nav.side-nav ul{
+    list-style: none;
+}
+
+nav.side-nav li{
+    font-weight: 400px;
+    color: black;
+    display: block;
+    /*padding: 5px;*/
+    user-select: none; /*no text selector*/
+    position: relative;
+    line-height: 3em;
+}
+
+a:hover {
+    font-style: italic;
+    color: lightcoral;
+}
+
+a:active {
+    color: lightgoldenrodyellow;
+}
+
+/*a:visited {
+    color: lightgoldenrodyellow;
+    text-decoration: italic;
+}*/
+
+/*FOOTER*/
+
+.footer {
+    margin-block-start: 0;
+    color: lightcoral;
+    position: fixed;
+    right: 0;
+    bottom: 2em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+    display: inline;
+    font-size: 0.75em;
+    text-align: right;
+
+}
+
+/*ABOUT ME */
+
+.on-about {
+    color: lightgoldenrodyellow;
+    font-style: none;
+}
+
+.selected {
+    font-style: italic;
+    color: lightgoldenrodyellow;
+}
+
+.info-paragraph {
+    height: 5em;
+    width: 30em;
+    position: relative;
+    top: 0;
+    left: 40%;
+    line-height: 200%;
+    color: black;
+}
+
+.hide-destruct {
+    color: transparent;
+}
+
+/*FIX THIS */
+a.web-link {
+    color: lightgoldenrodyellow;
+}
+a.web-link:hover {
+    text-decoration: none;
+}
+
+/*PROJECT 1 PAGE*/
+.img-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    left: 30em;
+    grid-gap: 10px;
+    width: 20em;
+    margin: 0;
+    position: fixed;
+  }
+
+  .grid-item {
+    width: 10em;
+    height: 13em;
+    padding: 2px;
+
+  }
+
+  .project-title {
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-weight: 600;
+    left: 5em;
+    position: relative;
+  }
+
+  /*SKILLS PAGE*/
+  .skills-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    left: 30em;
+    grid-gap: 10px;
+    width: 20em;
+    margin: 0;
+    position: fixed;
+  }
+
+  .skill-text {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid  (0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    border-radius: 5px;
+    color: black; 
+  }
+
+
+
